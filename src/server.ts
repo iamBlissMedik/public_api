@@ -13,11 +13,11 @@ app.get("/", (req, res) => {
   res.json({
     email: "ellamsbliss@gmail.com",
     current_datetime: new Date().toISOString(),
-    github_url: "",
+    github_url: "https://github.com/iamBlissMedik/public_api",
   });
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-``
+``;
